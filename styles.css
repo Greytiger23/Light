@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(circle at center, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+nav {
+	background-color: #524e51;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #ffa8de;
+	text-decoration: none;
+}
+
+ main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.left-col {
+	width: 40%;
+	margin-left: 20px;
+}
+
+.right-col {
+	width: 40%;
+	margin-right: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+li:hover {
+	background-color: #524e51;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+#liked-songs-list, #recommended-songs-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#liked-songs-list li, #recommended-songs-list li {
+	margin-bottom: 10px;
+}
