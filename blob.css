@@ -1,0 +1,55 @@
+.loader {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.blob {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #8EC5FC, #E0C3FC);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 200%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px rgba(142, 197, 252, 0.5);
+  animation: morph 5s linear infinite;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  25% {
+    border-radius: 50% 50% 0 0;
+    width: 100px;
+    height: 50px;
+  }
+
+  50% {
+    border-radius: 50% 50% 50% 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  75% {
+    border-radius: 50% 50% 50% 50%;
+    width: 50px;
+    height: 100px;
+  }
+
+  100% {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+}
