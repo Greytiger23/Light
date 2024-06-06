@@ -1,7 +1,7 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(135deg, #1a2a6c, #333133, #ffa8de);
+	background: linear-gradient(135deg, #DA7B93, #1c3334, #2e151b);
 }
 
 .welcome-content {
@@ -35,7 +35,7 @@ body, html {
 
 .button {
 	padding: 10px 20px;
-	background-color: #ffa8de;
+	background-color: #DA7B93;
 	color: white;
 	border: none;
 	border-radius: 5px;
