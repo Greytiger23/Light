@@ -1,86 +1,78 @@
-/* styles.css */
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background: radial-gradient(circle at center, #1a2a6c, #b21f1f, #fdbb2d);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 1em;
-	text-align: center;
-}
-
-nav {
-	background-color: #524e51;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
+
 nav li {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 nav a {
-	color: #ffa8de;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
- main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 2em;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-.left-col {
-	width: 40%;
-	margin-left: 20px;
-}
-
-.right-col {
-	width: 40%;
-	margin-right: 20px;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-li {
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
-}
-li:hover {
-	background-color: #524e51;
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-	font-size: 24px;
-	margin-bottom: 10px;
-	margin-top: 0;
+    margin-top: 0;
 }
 
-#liked-songs-list, #recommended-songs-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#liked-songs-list li, #recommended-songs-list li {
-	margin-bottom: 10px;
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
 }
