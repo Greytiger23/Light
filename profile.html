@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>User Profile</title>
-	<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="profile.html">Profile</a></li>
-			<li><a href="search.html">Search</a></li>
-		</ul>
-	</nav>
-	<div class="profile">
-		<img src="default-profile-pic.jpg" alt="Profile Picture" id="profile-pic" />
-		<input type="file" id="profile-pic-input" accept="image/*" />
-		<h1 id="username"></h1>
-	</div>
-	<script src="script.js"></script>
+    <header>
+      <nav>
+        <div class="logo">Light</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="library.html">Library</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="profile">
+        <img src="default-profile-pic.jpg" alt="Profile Picture" id="profile-pic" />
+        <input type="file" id="profile-pic-input" accept="image/*" />
+      </div>
+        <section class="profile-info">
+            <h2>Username: <span>johndoe</span></h2>
+            <p>Liked Songs:</p>
+            <ul>
+                <li>Song 1</li>
+                <li>Song 2</li>
+                <li>Song 3</li>
+            </ul>
+        </section>
+        <section class="playlist">
+            <h2>Playlist:</h2>
+            <ul>
+                <li>Playlist 1</li>
+                <li>Playlist 2</li>
+                <li>Playlist 3</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
