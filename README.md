@@ -5,9 +5,13 @@ Table of Contents
 • Introduction
 • Features
 • Inspiration
+• Story
+• Future Improvements
 • Technologies Used
 • Usage
 • Contributors
+
+Introduction
 
 Greetings from Light! The goal of this project is to give the user recommendations for music based on the music they already enjoy. It seeks to provide users with musical inspiration and an opportunity to experience new songs. 
 
