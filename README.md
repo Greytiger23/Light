@@ -29,6 +29,12 @@ Story
 
 I enjoy listening to music to calm down, relax or even hype myself up. My love for music started when I was young and I used to listen to Lebo Mathosa on TV, and watch music videos. It also came from watching movies and hearing the soundtracks that amplify a scene in a movie, it is really beautiful. I like changing genres every week to find new music, listening to different genres of music brings me joy especially when I find a new song that just makes me move. I made this website or app to achieve my goal of helping people find new music that peeks their interest. My website is a demo, because of license and copyright laws. It is an idea, my first project which I put together with the help from people and peers. It is an idea that I hope to actually make or rather deploy with actual music from artists.
 
+Future Improvements
+
+• Implement a music recommendations generator for different user preferences.
+
+• Enhance user profile features to include more personalized data and insights.
+
 Technologies Used
 
 Frontend: HTML, CSS, and JavaScript
@@ -63,5 +69,5 @@ To see a demo of the project, visit https://greytiger23.github.io or watch the v
 Contributors
 
 Isabel Mothoa:
-LinkedIn = 
+LinkedIn = https://www.linkedin.com/in/isabel-mothoa-672bb5204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 GitHub = Greytiger23
